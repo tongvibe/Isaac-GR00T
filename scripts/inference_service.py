@@ -43,7 +43,7 @@ if __name__ == "__main__":
         default="gr1_arms_waist",
     )
 
-    parser.add_argument("--port", type=int, help="Port number for the server.", default=5555)
+    parser.add_argument("--port", type=int, help="Port number for the server.", default=6006)
     parser.add_argument(
         "--host", type=str, help="Host address for the server.", default="localhost"
     )

@@ -115,7 +115,11 @@ def calc_mse_for_single_trajectory(
 
             ax.set_title(f"Joint {i}")
             ax.legend()
+        plt.tight_layout()
+        plt.savefig(f"trajectory_{traj_id}.png")  
+        plt.close(fig)
 
+        print(f"Plot saved to trajectory_{traj_id}.png") 
         plt.tight_layout()
         plt.show()
 
